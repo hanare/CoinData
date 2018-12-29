@@ -344,7 +344,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n#bpiCanvas{\n\n    margin: 10px auto ;\n    padding : 20px;\n    max-height: 80vh;\n    max-width: 80vw;\n    \n}\n    \nmat-card{\n    margin-left:10px;\n}\n    \n.bit-small-box, .bit-large-box {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 16px;\n    padding: 16px;\n    border-radius: 8px;\n    \n  }\n    \n.bit-small-box {\n    min-height: 100px;\n    min-width: 100px;\n  }\n    \n.bit-large-box {\n    margin: 10px auto ;\n    max-height: 80vh;\n    max-width: 80vw;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBOztJQUVJLG1CQUFtQjtJQUNuQixlQUFlO0lBQ2YsaUJBQWlCO0lBQ2pCLGdCQUFnQjs7Q0FFbkI7O0FBRUQ7SUFDSSxpQkFBaUI7Q0FDcEI7O0FBRUQ7SUFDSSxjQUFjO0lBQ2Qsb0JBQW9CO0lBQ3BCLHdCQUF3QjtJQUN4QixhQUFhO0lBQ2IsY0FBYztJQUNkLG1CQUFtQjs7R0FFcEI7O0FBRUQ7SUFDRSxrQkFBa0I7SUFDbEIsaUJBQWlCO0dBQ2xCOztBQUVEO0lBQ0UsbUJBQW1CO0lBQ25CLGlCQUFpQjtJQUNqQixnQkFBZ0I7R0FDakIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuI2JwaUNhbnZhc3tcblxuICAgIG1hcmdpbjogMTBweCBhdXRvIDtcbiAgICBwYWRkaW5nIDogMjBweDtcbiAgICBtYXgtaGVpZ2h0OiA4MHZoO1xuICAgIG1heC13aWR0aDogODB2dztcbiAgICBcbn1cbiAgICBcbm1hdC1jYXJke1xuICAgIG1hcmdpbi1sZWZ0OjEwcHg7XG59XG5cbi5iaXQtc21hbGwtYm94LCAuYml0LWxhcmdlLWJveCB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIG1hcmdpbjogMTZweDtcbiAgICBwYWRkaW5nOiAxNnB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDhweDtcbiAgICBcbiAgfVxuICBcbiAgLmJpdC1zbWFsbC1ib3gge1xuICAgIG1pbi1oZWlnaHQ6IDEwMHB4O1xuICAgIG1pbi13aWR0aDogMTAwcHg7XG4gIH1cbiAgXG4gIC5iaXQtbGFyZ2UtYm94IHtcbiAgICBtYXJnaW46IDEwcHggYXV0byA7XG4gICAgbWF4LWhlaWdodDogODB2aDtcbiAgICBtYXgtd2lkdGg6IDgwdnc7XG4gIH0iXX0= */"
+module.exports = "\n.currency-form {\n  \n  margin: 20px;\n  min-width: 150px;\n  max-width: 200px;\n  width: 100%;\n}\n.currency-full-width{\n  width:100%;\n}\n#bpiCanvas{\n\n    margin: 10px auto ;\n    padding : 20px;\n    max-height: 80vh; \n    max-width: 80vw;\n    \n}\nmat-card{\n    margin-left:10px;\n}\n.bit-small-box, .bit-large-box {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 16px;\n    padding: 16px;\n    border-radius: 8px;\n    \n  }\n.bit-small-box {\n    min-height: 100px;\n    min-width: 100px;\n  }\n.bit-large-box {\n    margin: 10px auto ;\n    max-height: 80vh;\n    max-width: 80vw;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBOztFQUVFLGFBQWE7RUFDYixpQkFBaUI7RUFDakIsaUJBQWlCO0VBQ2pCLFlBQVk7Q0FDYjtBQUNEO0VBQ0UsV0FBVztDQUNaO0FBS0Q7O0lBRUksbUJBQW1CO0lBQ25CLGVBQWU7SUFDZixpQkFBaUI7SUFDakIsZ0JBQWdCOztDQUVuQjtBQUVEO0lBQ0ksaUJBQWlCO0NBQ3BCO0FBRUQ7SUFDSSxjQUFjO0lBQ2Qsb0JBQW9CO0lBQ3BCLHdCQUF3QjtJQUN4QixhQUFhO0lBQ2IsY0FBYztJQUNkLG1CQUFtQjs7R0FFcEI7QUFFRDtJQUNFLGtCQUFrQjtJQUNsQixpQkFBaUI7R0FDbEI7QUFFRDtJQUNFLG1CQUFtQjtJQUNuQixpQkFBaUI7SUFDakIsZ0JBQWdCO0dBQ2pCIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5jdXJyZW5jeS1mb3JtIHtcbiAgXG4gIG1hcmdpbjogMjBweDtcbiAgbWluLXdpZHRoOiAxNTBweDtcbiAgbWF4LXdpZHRoOiAyMDBweDtcbiAgd2lkdGg6IDEwMCU7XG59XG4uY3VycmVuY3ktZnVsbC13aWR0aHtcbiAgd2lkdGg6MTAwJTtcbn1cblxuIFxuXG5cbiNicGlDYW52YXN7XG5cbiAgICBtYXJnaW46IDEwcHggYXV0byA7XG4gICAgcGFkZGluZyA6IDIwcHg7XG4gICAgbWF4LWhlaWdodDogODB2aDsgXG4gICAgbWF4LXdpZHRoOiA4MHZ3O1xuICAgIFxufVxuICAgIFxubWF0LWNhcmR7XG4gICAgbWFyZ2luLWxlZnQ6MTBweDtcbn1cblxuLmJpdC1zbWFsbC1ib3gsIC5iaXQtbGFyZ2UtYm94IHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgbWFyZ2luOiAxNnB4O1xuICAgIHBhZGRpbmc6IDE2cHg7XG4gICAgYm9yZGVyLXJhZGl1czogOHB4O1xuICAgIFxuICB9XG4gIFxuICAuYml0LXNtYWxsLWJveCB7XG4gICAgbWluLWhlaWdodDogMTAwcHg7XG4gICAgbWluLXdpZHRoOiAxMDBweDtcbiAgfVxuICBcbiAgLmJpdC1sYXJnZS1ib3gge1xuICAgIG1hcmdpbjogMTBweCBhdXRvIDtcbiAgICBtYXgtaGVpZ2h0OiA4MHZoO1xuICAgIG1heC13aWR0aDogODB2dztcbiAgfSJdfQ== */"
 
 /***/ }),
 
@@ -355,7 +355,7 @@ module.exports = "\n#bpiCanvas{\n\n    margin: 10px auto ;\n    padding : 20px;\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n<mat-tab-group dynamicHeight (selectedTabChange)=\"tabChanged($event)\">\n     <mat-tab label=\"History\">\n      \n        <mat-form-field>\n          <input matInput [matDatepicker]=\"picker\" \n          [max]=\"today\"\n          [min]=\"min\"\n          placeholder=\"Choose a start date\"\n          (dateChange)=\"displayChart('startDate',$event)\">\n          <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n          <mat-datepicker #picker startView=\"year\" [startAt]=\"startDate\"></mat-datepicker>\n        </mat-form-field>&nbsp;\n\n        <mat-form-field>\n            <input matInput [matDatepicker]=\"picker1\" \n            placeholder=\"Choose a end date\"\n            [max]=\"today\"\n            [min]=\"min\"\n            (dateChange)=\"displayChart('endDate',$event)\">\n            \n            <mat-datepicker-toggle matSuffix [for]=\"picker1\"></mat-datepicker-toggle>\n            <mat-datepicker #picker1 startView=\"year\" [startAt]=\"endDate\"></mat-datepicker>\n         \n          </mat-form-field>\n       <!-- <button (click)=\"displayChart()\" mat-button>Show </button> -->\n\n      <div class=\"bit-large-box mat-elevation-z4\">\n\n        \n            \n                          \n       \n          <div *ngIf=\"showChart\" class=\"priceChart\"> \n              <canvas id=\"bpiCanvas\">{{bpiChart}}</canvas>\n            </div>\n      \n  \n      </div>\n    </mat-tab>\n<mat-tab label=\"Current Price\" >\n\n  <div class=\"bit-small-box mat-elevation-z4\">\n    \n    <ng-container *ngFor='let coinrate of bitCoinRates'>\n       \n      <mat-card>\n        <mat-card-title>\n          {{coinrate.rate_float | currency:coinrate.currency }}  \n                </mat-card-title>\n        <mat-card-content>\n          {{coinrate.description}}\n        </mat-card-content>\n      </mat-card>\n    </ng-container>\n\n\n    \n  \n \n  </div>\n</mat-tab>\n\n\n</mat-tab-group>\n\n<div>\n    <p>Last Updated: {{updateTime}}</p> \n    </div>\n \n\n\n<!-- \n\n<mat-card class=\"example-card\">\n  <mat-card-header>\n    <div mat-card-avatar class=\"example-header-image\"></div>\n    <mat-card-title>Shiba Inu</mat-card-title>\n    <mat-card-subtitle>Dog Breed</mat-card-subtitle>\n  </mat-card-header>\n  <img mat-card-image src=\"https://material.angular.io/assets/img/examples/shiba2.jpg\" alt=\"Photo of a Shiba Inu\">\n  <mat-card-content>\n    <p>\n      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.\n      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally\n      bred for hunting.\n    </p>\n  </mat-card-content>\n  <mat-card-actions>\n    <button mat-button>LIKE</button>\n    <button mat-button>SHARE</button>\n  </mat-card-actions>\n</mat-card>\n\n -->\n"
+module.exports = "\n\n<mat-tab-group dynamicHeight (selectedTabChange)=\"tabChanged($event)\">\n     <mat-tab label=\"History\">\n      \n        <mat-form-field>\n          <input matInput [matDatepicker]=\"picker\" \n          [max]=\"today\"\n          [min]=\"min\"\n          placeholder=\"Choose a start date\"\n          (dateChange)=\"displayChart('startDate',$event)\">\n          <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n          <mat-datepicker #picker startView=\"year\" [startAt]=\"startDate\"></mat-datepicker>\n        </mat-form-field>&nbsp;\n\n        <mat-form-field>\n            <input matInput [matDatepicker]=\"picker1\" \n            placeholder=\"Choose a end date\"\n            [max]=\"today\"\n            [min]=\"min\"\n            (dateChange)=\"displayChart('endDate',$event)\">\n            \n            <mat-datepicker-toggle matSuffix [for]=\"picker1\"></mat-datepicker-toggle>\n            <mat-datepicker #picker1 startView=\"year\" [startAt]=\"endDate\"></mat-datepicker>\n         \n          </mat-form-field>\n       <!-- <button (click)=\"displayChart()\" mat-button>Show </button> -->\n\n      <div class=\"bit-large-box mat-elevation-z4\">\n\n        \n            \n                          \n       \n          <div *ngIf=\"showChart\" class=\"priceChart\"> \n              <canvas id=\"bpiCanvas\">{{bpiChart}}</canvas>\n            </div>\n      \n  \n      </div>\n    </mat-tab>\n<mat-tab label=\"Current Price\" >\n    <form class=\"currency-form\">\n        <mat-form-field class=\"currency-full-width\">\n          <input type=\"text\" placeholder=\"Currency\" aria-label=\"Number\" matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\" >\n          <mat-autocomplete autoActiveFirstOption #auto=\"matAutocomplete\" (optionSelected)=\"getCurrencyRate($event)\">\n            <mat-option *ngFor=\"let coin of coinfilteredOptions | async\" [value]=\"coin\">\n              {{coin}}\n            </mat-option>\n          </mat-autocomplete>\n        </mat-form-field>\n      </form>\n\n  <div class=\"bit-small-box mat-elevation-z4\">\n\n           \n    \n    <ng-container *ngFor='let coinrate of bitCoinRates'>\n       \n      <mat-card>\n        <mat-card-title>\n          {{coinrate.rate_float | currency:coinrate.currency }}  \n                </mat-card-title>\n        <mat-card-content>\n          {{coinrate.description}}\n        </mat-card-content>\n      </mat-card>\n    </ng-container>\n\n\n    \n  \n \n  </div>\n</mat-tab>\n\n\n</mat-tab-group>\n\n<div>\n    <p>Last Updated: {{updateTime}}</p> \n    </div>\n \n\n\n<!-- \n\n<mat-card class=\"example-card\">\n  <mat-card-header>\n    <div mat-card-avatar class=\"example-header-image\"></div>\n    <mat-card-title>Shiba Inu</mat-card-title>\n    <mat-card-subtitle>Dog Breed</mat-card-subtitle>\n  </mat-card-header>\n  <img mat-card-image src=\"https://material.angular.io/assets/img/examples/shiba2.jpg\" alt=\"Photo of a Shiba Inu\">\n  <mat-card-content>\n    <p>\n      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.\n      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally\n      bred for hunting.\n    </p>\n  </mat-card-content>\n  <mat-card-actions>\n    <button mat-button>LIKE</button>\n    <button mat-button>SHARE</button>\n  </mat-card-actions>\n</mat-card>\n\n -->\n"
 
 /***/ }),
 
@@ -375,6 +375,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var chart_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! chart.js */ "./node_modules/chart.js/src/chart.js");
 /* harmony import */ var chart_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(chart_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+
+
 
 
 
@@ -390,6 +394,8 @@ var AppComponent = /** @class */ (function () {
         this.showChart = true;
         this.today = new Date();
         this.min = new Date(2017, 7, 17);
+        this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormControl"]();
+        this.options = ['INR', 'EUR', 'USD', 'JPY'];
     }
     AppComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -397,29 +403,53 @@ var AppComponent = /** @class */ (function () {
         this._bitcoinservice.getHistoricalBIP().subscribe(function (data) {
             _this.renderChart(data);
         });
+        this.coinfilteredOptions = this.myControl.valueChanges.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_6__["startWith"])(''), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_6__["map"])(function (value) { return _this._filter(value); }));
+    };
+    AppComponent.prototype._filter = function (value) {
+        var filterValue = value.toLowerCase();
+        return this.options.filter(function (option) { return option.toLowerCase().indexOf(filterValue) === 0; });
+    };
+    AppComponent.prototype.getCurrencyRate = function ($event) {
+        var _this = this;
+        console.log("Console ", $event.option.value);
+        var currency = $event.option.value;
+        this._bitcoinservice.getCurrencPrice(currency).subscribe(function (data) {
+            _this.extraCoinPrice(data);
+        });
     };
     AppComponent.prototype.currentPrice = function () {
         var _this = this;
         console.log("Current Price");
         this._bitcoinservice.getCurrentPrice().subscribe(function (data) {
-            console.log(data);
-            var bpi = Object.values(data.bpi);
-            console.log('bpi ', bpi);
-            bpi.forEach(function (element) {
-                var tmpRate = {
-                    currency: element["code"],
-                    symbol: element["symbol"],
-                    description: element["description"],
-                    rate: element["rate"],
-                    rate_float: element["rate_float"],
-                    timeUpdated: data.time.updated
-                };
-                console.log('  ', element);
-                console.log("temp", tmpRate);
-                _this.bitCoinRates.push(tmpRate);
-            });
-            _this.updateTime = data.time.updated;
+            _this.extraCoinPrice(data);
         });
+    };
+    AppComponent.prototype.uniqueCoins = function (value, index, self) {
+    };
+    AppComponent.prototype.extraCoinPrice = function (data) {
+        var _this = this;
+        console.log(data);
+        var bpi = Object.values(data.bpi);
+        console.log('bpi ', bpi);
+        bpi.forEach(function (element) {
+            var tmpRate = {
+                currency: element["code"],
+                symbol: element["symbol"],
+                description: element["description"],
+                rate: element["rate"],
+                rate_float: element["rate_float"],
+                timeUpdated: data.time.updated
+            };
+            console.log('  ', element);
+            console.log("temp", tmpRate);
+            _this.bitCoinRates.push(tmpRate);
+            _this.bitCoinRates = _this.bitCoinRates.filter(function (value, index, self) {
+                return index === self.findIndex(function (data) {
+                    return data.currency === value.currency;
+                });
+            });
+        });
+        this.updateTime = data.time.updated;
     };
     AppComponent.prototype.tabChanged = function ($event) {
         console.log($event);
@@ -561,6 +591,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/datepicker */ "./node_modules/@angular/material/esm5/datepicker.es5.js");
 /* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
 /* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/tabs */ "./node_modules/@angular/material/esm5/tabs.es5.js");
+/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/autocomplete */ "./node_modules/@angular/material/esm5/autocomplete.es5.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+
+
 
 
 
@@ -596,7 +630,10 @@ var AppModule = /** @class */ (function () {
                 _angular_material_form_field__WEBPACK_IMPORTED_MODULE_11__["MatFormFieldModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_13__["MatNativeDateModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_13__["MatInputModule"],
-                _angular_material_tabs__WEBPACK_IMPORTED_MODULE_14__["MatTabsModule"]
+                _angular_material_tabs__WEBPACK_IMPORTED_MODULE_14__["MatTabsModule"],
+                _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_15__["MatAutocompleteModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_16__["FormsModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_16__["ReactiveFormsModule"]
             ],
             providers: [_bitcoin_service__WEBPACK_IMPORTED_MODULE_3__["BitCoinService"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["DatePipe"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
@@ -722,7 +759,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/madara/bitAnalysis/BitCoinRate/CoinData/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/madara/bitAnalysis/BitCoinRate/coindata/src/main.ts */"./src/main.ts");
 
 
 /***/ })
