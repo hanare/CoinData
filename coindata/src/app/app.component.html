@@ -1,0 +1,108 @@
+
+
+<mat-tab-group dynamicHeight (selectedTabChange)="tabChanged($event)">
+     <mat-tab label="History">
+      
+        <mat-form-field>
+          <input matInput [matDatepicker]="picker" 
+          [max]="today"
+          [min]="min"
+          placeholder="Choose a start date"
+          (dateChange)="displayChart('startDate',$event)">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker startView="year" [startAt]="startDate"></mat-datepicker>
+        </mat-form-field>&nbsp;
+
+        <mat-form-field>
+            <input matInput [matDatepicker]="picker1" 
+            placeholder="Choose a end date"
+            [max]="today"
+            [min]="min"
+            (dateChange)="displayChart('endDate',$event)">
+            
+            <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+            <mat-datepicker #picker1 startView="year" [startAt]="endDate"></mat-datepicker>
+         
+          </mat-form-field>
+       <!-- <button (click)="displayChart()" mat-button>Show </button> -->
+
+      <div class="bit-large-box mat-elevation-z4">
+
+        
+            
+                          
+       
+          <div *ngIf="showChart" class="priceChart"> 
+              <canvas id="bpiCanvas">{{bpiChart}}</canvas>
+            </div>
+      
+  
+      </div>
+    </mat-tab>
+<mat-tab label="Current Price" >
+    <form class="currency-form">
+        <mat-form-field class="currency-full-width">
+          <input type="text" placeholder="Currency" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto" >
+          <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="getCurrencyRate($event)">
+            <mat-option *ngFor="let coin of coinfilteredOptions | async" [value]="coin">
+              {{coin}}
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+      </form>
+
+  <div class="bit-small-box mat-elevation-z4">
+
+           
+    
+    <ng-container *ngFor='let coinrate of bitCoinRates'>
+       
+      <mat-card>
+        <mat-card-title>
+          {{coinrate.rate_float | currency:coinrate.currency }}  
+                </mat-card-title>
+        <mat-card-content>
+          {{coinrate.description}}
+        </mat-card-content>
+      </mat-card>
+    </ng-container>
+
+
+    
+  
+ 
+  </div>
+</mat-tab>
+
+
+</mat-tab-group>
+
+<div>
+    <p>Last Updated: {{updateTime}}</p> 
+    </div>
+ 
+
+
+<!-- 
+
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Shiba Inu</mat-card-title>
+    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+      bred for hunting.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+
+ -->
